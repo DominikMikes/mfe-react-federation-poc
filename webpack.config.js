@@ -33,7 +33,7 @@ module.exports = {
     name: 'MfeReact',
     filename: 'remoteEntry.js',
     remotes: {
-      // MfeNext: 'MfeNext@http://localhost:3002/_next/static/chunks/remoteEntry.js',
+      // MfeNext: 'MfeNext@http://localhost:3000/_next/static/chunks/remoteEntry.js',
     },
     exposes: { 
       './MfeReact': './src/App'
